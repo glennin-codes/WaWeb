@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "My WhatsApp Extension",
+    "version": "1.0.0",
+    "permissions": ["https://api.whatsapp.com/*"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "web_accessible_resources": ["index.html"]
+  }
+  
